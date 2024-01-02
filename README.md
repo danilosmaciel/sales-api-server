@@ -36,7 +36,7 @@ O projeto fornece o acesso a api de dados para o app cliente
 - [Swagger](https://swagger.io/solutions/getting-started-with-oas/) - Facilita implementação do OpenAi
 - [Sqlite](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite)- Adiciona ao EntityFramework a capacidade de trabalhar com banco de dados relacional SQLite
 - [Identity](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite) - Adiciona funcionalidades que abstraem a criação e validações de usuáios.
-- 
+
 ## Abrir e rodar
 
 **Para executar este projeto você precisa:**
