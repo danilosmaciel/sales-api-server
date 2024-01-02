@@ -48,7 +48,9 @@ O projeto fornece o acesso a api de dados para o app cliente
 5. Abrir o Git e clonar o projeto do [GitHub]([https://gitlab.com/physical-solutions/app-physical](https://github.com/danilosmaciel/sales-api-server)) usando o comando `git clone `. <br/>
 6. Ao abrir o projeto, execute o comando `dotnet run` na raiz do projeto ou clique ou do botão play de sua ide. As dependências serão baixadas e o banco será criado no diretório Database, na raiz da aplicação <br/>
 7. Depois disso a api ficará disponível.
-8. Assim que a api estiver disponível acesse o endereço http://localhost:5041/swagger no browser, para acessar o Swagger. 
+8. Assim que a api estiver disponível acesse o endereço http://localhost:5041/swagger no browser, para acessar o Swagger.
+9. Antes de utilizar o client(https://github.com/danilosmaciel/sales-api-client) ou mesmo os recursos via Swagger, será necessário criar um usuário no endpoint /api/user/create.
+   
 
 
 [Voltar ao topo](#physical-solutions)<br>
