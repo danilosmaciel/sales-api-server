@@ -50,6 +50,7 @@ O projeto fornece o acesso a api de dados para o app cliente
 7. Depois disso a api ficará disponível.
 8. Assim que a api estiver disponível acesse o endereço http://localhost:5041/swagger no browser, para acessar o Swagger.
 9. Antes de utilizar o client(https://github.com/danilosmaciel/sales-api-client) ou mesmo os recursos via Swagger, será necessário criar um usuário no endpoint /api/user/create.
+10. Para usar o Swagger, realize o login com o usuário criado em /api/user/signin que irá devolver um token que deve ser utilizado no botão "Authorize" no topo da página, para autorizar deve se utilizar no campo especifico o formato "Bearer " + o token que a api gerou no login, a patir disso os endpoints ficarão acessíveis.
    
 
 
